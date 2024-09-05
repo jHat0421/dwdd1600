@@ -1,0 +1,152 @@
+/*Colors:
+FF8F18
+47A3BF
+1FCBFF
+AA7B4D
+4F7480
+554C43
+
+*/
+
+/* Body Style */
+body {
+    font-family: "Jura", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin: 0;
+}
+
+/* Header Style */
+header {
+    background-color: #4f7480;
+    padding: 1rem 2vw;
+    text-align: center;
+}
+
+header h1 {
+    color: #ff8f18;
+}
+
+header p {
+    color: #ff8f18;
+}
+
+/* Navigation Style */
+nav {
+    background-color: #ff8f18;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #554c43;
+    font-weight: 700;
+    display: block;
+    padding: 0.8rem 2rem;
+}
+
+nav li.activePage a {
+    background-color: #4f7480;
+    color: #ff8f18;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* Main Style */
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 {
+    color: #1fcbff;
+}
+
+main h2 {
+    color: #ff8f18;
+    margin-bottom: 0.2rem;
+}
+
+main p {
+    color: #554c43;
+    margin: 0 0 0.3rem 0;
+}
+
+main ol {
+    padding: 0.5rem 3vw;
+    background-color: #47a3bf;
+    color: #554c43;
+    width: 12.5rem;
+    border: 2px solid #554c43;
+    border-radius: 0.5rem;
+}
+
+main dt {
+    color: #1fcbff;
+    font-weight: 700;
+}
+
+main dd {
+    color: #ff8f18;
+    font-weight: 300;
+}
+
+main ul.aboutList {
+    padding: 0.5rem 3vw;
+    list-style-type: circle;
+    color: #554c43;
+}
+
+main ul.sponsorList {
+    padding: 0.5rem 3vw;
+    list-style-type: lower-roman;
+}
+
+main li {
+    line-height: 125%;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+main address {
+    font-style: normal;
+    background-color: #ff8f18;
+    color: #554c43;
+    padding: 0.5rem;
+    width: 12.5rem;
+    border: 1px solid #554c43;
+    border-radius: 0.5rem;
+}
+
+main a {
+    color: #554c43;
+}
+
+main a:hover {
+    color: #1fcbff;
+}
+/* Footer Style */
+footer {
+    background-color: #ff8f18;
+    text-align: center;
+    color: #554c43;
+    padding: 0.5rem 0;
+    font-size: 0.8rem;
+}
+
+footer a {
+    color: #554c43;
+}
+
+footer a:hover {
+    color: #1fcbff;
+}
