@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Utah's Premiere Racing and Flight Simulation Experience">
+        <meta name="author" content="Jaden Hathaway">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;700&display=swap" rel="stylesheet">
+
+        <title>Overdrive Simulations</title>
+    </head>
+
+    <body>
+        <header>
+            <!-- Header Section -->
+            <h1>Overdrive Simulations</h1>
+            <p>The Premiere Racing And Flight Simulation Experience in Utah!</p>
+        </header>
+
+        <nav>
+            <!-- Navigation Section -->
+            <ul>
+                <li><a href="index.html">Benefits of racing/flight simulation</a></li>
+                <li class="activePage"><a href="reserve.html">Reserve a Race</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li ><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h1>Reserve a Race</h1>
+            <form method="get" class="reserveForm" action="thanks.html">
+                <fieldset>
+                    <legend>Select Date</legend>
+                        <label><input type="radio" name="date" value="monday">Monday</label>
+                        <label><input type="radio" name="date" value="tuesday">Tuesday</label>
+                        <label><input type="radio" name="date" value="wednesday">Wednesday</label>
+                        <label><input type="radio" name="date" value="thursday">Thursday</label>
+                        <label><input type="radio" name="date" value="friday">Friday</label>
+                        <label><input type="radio" name="date" value="saturday">Saturday</label>
+                        <label><input type="radio" name="date" value="sunday">Sunday</label>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Select Time</legend>
+                    <select name="time">
+                            <option value="none">Please Select</option>
+                            <option value="four">4:00pm</option>
+                            <option value="five">5:00pm</option>
+                            <option value="six">6:00pm</option>
+                            <option value="seven">7:00pm</option>
+                            <option value="eight">8:00pm</option>
+                            <option value="nine">9:00pm</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Select Game(s)</legend>
+                        <label><input type="checkbox" name="ac" value="clicked">Assetto Corsa</label>
+                        <label><input type="checkbox" name="acc" value="clicked">Assetto Corsa Competizione</label>
+                        <label><input type="checkbox" name="iracing" value="clicked">IRacing</label>
+                        <label><input type="checkbox" name="dr2" value="clicked">Dirt Rally 2</label>
+                        <label><input type="checkbox" name="dcs" value="clicked">Digital Combat Simulator (DCS)</label>
+                        <label><input type="checkbox" name="wt" value="clicked">War Thunder</label>
+                        <label><input type="checkbox" name="sc" value="clicked">Star Citizen</label>
+                </fieldset>
+                
+                <input type="submit" value="Reserve">
+            </form>
+        </main>
+
+        <footer>
+            <!-- Footer Section -->
+            <p>&copy; 2024 &bull; Jaden Hathaway &bull; <a href="mailto:zen@mail.com">Email Us!</a></p>
+        </footer>
+    </body>
+</html>

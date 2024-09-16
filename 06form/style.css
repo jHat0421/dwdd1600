@@ -1,0 +1,232 @@
+/*Colors:
+FF8F18
+47A3BF
+1FCBFF
+AA7B4D
+4F7480
+554C43
+
+*/
+
+/* Body Style */
+body {
+    font-family: "Jura", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin: 0;
+}
+
+/* Header Style */
+header {
+    background-color: #4f7480;
+    padding: 1rem 2vw;
+    text-align: center;
+}
+
+header h1 {
+    color: #ff8f18;
+}
+
+header p {
+    color: #ff8f18;
+}
+
+/* Navigation Style */
+nav {
+    background-color: #ff8f18;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #554c43;
+    font-weight: 700;
+    display: block;
+    padding: 0.8rem 2rem;
+}
+
+nav li.activePage a {
+    background-color: #4f7480;
+    color: #ff8f18;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* Main Style */
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 {
+    color: #1fcbff;
+}
+
+main h2 {
+    color: #ff8f18;
+    margin-bottom: 0.2rem;
+}
+
+main p {
+    color: #554c43;
+    margin: 0 0 0.3rem 0;
+}
+
+main ol {
+    padding: 0.5rem 3vw;
+    background-color: #47a3bf;
+    color: #554c43;
+    width: 12.5rem;
+    border: 2px solid #554c43;
+    border-radius: 0.5rem;
+}
+
+main dt {
+    color: #1fcbff;
+    font-weight: 700;
+}
+
+main dd {
+    color: #ff8f18;
+    font-weight: 300;
+}
+
+main ul.aboutList {
+    padding: 0.5rem 3vw;
+    list-style-type: circle;
+    color: #554c43;
+}
+
+main ul.sponsorList {
+    padding: 0.5rem 3vw;
+    list-style-type: lower-roman;
+}
+
+main li {
+    line-height: 125%;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+main address {
+    font-style: normal;
+    background-color: #ff8f18;
+    color: #554c43;
+    padding: 0.5rem;
+    width: 12.5rem;
+    border: 1px solid #554c43;
+    border-radius: 0.5rem;
+}
+
+main a {
+    color: #554c43;
+}
+
+main a:hover {
+    color: #1fcbff;
+}
+
+figure.wrapped {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+}
+
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery figure {
+    margin: 0.5rem 2% 0 0;
+}
+
+.gallery figcaption {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #4f7480;
+}
+
+.reserveForm fieldset, .contactForm fieldset{
+    
+    border: 1px solid #ff8f18;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+.reserveForm legend, .contactForm legend {
+    color: #554c43;
+    font-size: 1.2rem;
+}
+
+.reserveForm label, .contactForm label{
+    margin: .5rem;
+}
+
+.reserveForm label, .reserveForm select, .reserveForm [type=text], .reserveForm [type=tel], .reserveForm [type=email],.reserveForm textarea, .contactForm label, .contactForm select, .contactForm [type=text], .contactForm [type=tel], .contactForm [type=email],.contactForm textarea  {
+    display: block;
+}
+
+.reserveForm [type=text], .reserveForm [type=tel], .reserveForm [type=email], .reserveForm select, .reserveForm textarea, .contactForm [type=text], .contactForm [type=tel], .contactForm [type=email], .contactForm select, .contactForm textarea {
+    border: solid 1px #888;
+    padding: 0.3rem;
+    width: 250px;
+    border-radius: .3rem;
+    font-family: "Jura", sans-serif;
+    font-weight: 200;
+}
+
+.contactForm textarea {
+    height: 6rem;
+}
+
+.reserveForm :required, .contactForm :required{
+    background-color: rgba(156,51,53,0.1);
+}
+
+.reserveForm [type=submit], .contactForm [type=submit] {
+    background-color: #1fcbff;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius:10px;
+    color:  white;
+    margin: 1rem 0 0 1vw;
+    
+}
+
+
+/* Footer Style */
+footer {
+    background-color: #ff8f18;
+    text-align: center;
+    color: #554c43;
+    padding: 0.5rem 0;
+    font-size: 0.8rem;
+    clear:both;
+}
+
+footer a {
+    color: #554c43;
+}
+
+footer a:hover {
+    color: #1fcbff;
+}
