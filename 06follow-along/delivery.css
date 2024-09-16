@@ -90,7 +90,7 @@ main a {
     font-size: .8rem;
 }
 
-.myForm field {
+.myForm fieldset {
     
     border: 1px solid #43A0b6;
     border-radius: 3px;
