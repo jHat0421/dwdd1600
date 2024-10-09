@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Budget Vacations Sample Website">
+        <meta name="author" content="Jaden Hathaway">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Vacation Sample Website</title>
+        
+    </head>
+
+    <body>
+        <!-- Header Secction -->
+        <header>
+            <img class="logo" src="images/logo.png" alt="logo" height=100 width=100>
+            <div>
+                <h1>Budget Vacations</h1>
+                <p>Great Geataways At Great Prices</p>
+            </div>
+        </header>
+        
+        <!-- Navigation Section -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="video.html">Videos</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li class="active_page"><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Main Section -->
+        <main>
+            <h1>Contact Us</h1>
+            
+            <form method="get" class="contact_form" action="thanks.html">
+                <fieldset>
+                    <legend>Customer Information</legend>
+
+                    <label>First Name*<input type="text" name="fname" required placeholder="John"></label>
+                    <label>Last Name*<input type="text" name="lname" required placeholder="Smith"></label>
+                    <label>Phone Number*<input type="tel" name="phone" required placeholder="123-456-7890"></label>
+                    <label>Email*<input type="email" name="email" required placeholder="john.smith@mail.com"></label>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Vacation Preference</legend>
+                    Which type of vacation would you be most interested in?
+                    <select name="vacation_type" required>
+                            <option value="">-- Select Vacation Type --</option>
+                            <option value="cruise">Cruises</option>
+                            <option value="road">Road Trips</option>
+                            <option value="cultural">Cultural</option>
+                            <option value="resort">Resort</option>
+                            <option value="outdoors">Outdoors</option>
+                            <option value="other">Other</option>
+                    </select>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Contact Method</legend>
+
+                    <label><input type="radio" name="method" value="Email" required>Email</label>
+                    <label><input type="radio" name="method" value="Phone">Phone</label>
+                    <label><input type="radio" name="method" value="Text">Text</label>
+                </fieldset>
+                
+                <label>Comments
+                    <textarea name="comments" placeholder="Special accomondations we need to be aware of"></textarea>
+                </label>
+
+                <input type="submit" value="Send Application">
+            
+            </form>
+        </main>
+        
+        <!-- Footer Content -->
+        <footer>
+            <p>&copy; 2024 &bull; Budget Vacations &bull; <a href="mailto:contact@budgetvacations.com">Email</a></p>
+        </footer>
+    </body>
+</html>
